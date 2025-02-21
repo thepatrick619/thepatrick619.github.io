@@ -1,4 +1,4 @@
-body {
+bbody {
     margin: 0;
     font-family: Arial, sans-serif;
 }
@@ -54,6 +54,51 @@ body {
     padding: 20px;
     text-align: center;
     margin-top: 200px; /* Ajustar el margen superior para evitar la superposición con el header */
+}
+.content {
+    padding: 20px;
+    text-align: center;
+    margin-top: 200px; /* Ajustar el margen superior para evitar la superposición con el header */
+}
+.modules {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+    flex-wrap: wrap; /* Permitir que los módulos se ajusten en varias filas si es necesario */
+}
+.module {
+    background-color: rgb(255, 105, 50); /* Fondo naranja */
+    color: white; /* Letra blanca */
+    padding: 20px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    width: 28%;
+    text-align: center;
+    height: 200px; /* Aumentar altura vertical */
+    overflow: hidden; /* Evitar que el texto se salga del módulo */
+    word-wrap: break-word; /* Permitir que el texto se ajuste al tamaño del contenedor */
+    margin-bottom: 20px; /* Añadir margen inferior para separar los módulos en filas */
+}
+.module h3 {
+    margin-top: 0;
+}
+.module p {
+    margin-top: 10px;
+    color: white; /* Letra blanca para el contenido */
+}
+.section {
+    margin: 20px 0; /* Añadir margen superior e inferior a cada sección */
+    padding: 20px;
+    background-color: #f4f4f4; /* Fondo gris claro */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+.section h3 {
+    margin-top: 0;
+    color: rgb(255, 105, 50); /* Color de texto naranja */
+}
+.section p {
+    color: #333; /* Color de texto gris oscuro */
 }
 #wrapper {
     max-width: 80%;
